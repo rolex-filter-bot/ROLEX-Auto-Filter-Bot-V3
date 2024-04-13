@@ -12,6 +12,10 @@ RolexFilterBot = Client(
     bot_token=BOT_TOKEN
   )
 
+
+@RolexFilterBot.on_message(filters.command("start"))
+
+
 print("Bot was Started")
 
 RolexFilterBot.run() 
