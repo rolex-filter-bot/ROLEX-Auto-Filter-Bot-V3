@@ -14,6 +14,13 @@ RolexFilterBot = Client(
 
 
 @RolexFilterBot.on_message(filters.command("start"))
+async def start_cmd(client, message):
+    print("START Command")
+
+
+@RolexFilterBot.on_message(filters.command("help"))
+async def help_cmd(client, message):
+    print("HELP Command")
 
 
 print("Bot was Started")
