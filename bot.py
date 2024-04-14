@@ -15,7 +15,9 @@ RolexFilterBot = Client(
 
 @RolexFilterBot.on_message(filters.command("start"))
 async def start_cmd(client, message):
-    await message.reply_text("HAI 🖐🖐 I AM ROLEX FILTER BOT. THIS IS AN ADVANCED AND POWERFUL BOT")
+    await message.reply_photo(
+        photo="https://telegra.ph/file/c6f79998e829fa0829eb1.jpg"
+        caption="HAI 🖐🖐 I AM ROLEX FILTER BOT. THIS IS AN ADVANCED AND POWERFUL BOT. [JOIN MOVIES CHANNEL](https://t.me/TamillMobb_LinkkZz). [JOIN REQUEST GROUP](https://t.me/TamillMobb_LinnkkZz)")
 
 
 @RolexFilterBot.on_message(filters.command("help"))
