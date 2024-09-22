@@ -9,19 +9,19 @@ services:
     branch: main
     envVars:
       - key: BOT_TOKEN 
-        sync: false
+        sync: true
       - key: API_ID 
-        sync: false
+        sync: true
       - key: API_HASH
-        sync: false
+        sync: true
       - key: ADMINS
-        sync: false
+        sync: true
       - key: DATABASE_NAME
-        sync: false
+        sync: true
       - key: DATABASE_URI
-        sync: false 
+        sync: true 
       - key: PICS
-        sync: false
+        sync: true
       - key: LOG_CHANNEL
-        sync: false    
-    autoDeploy: false
+        sync: true    
+    autoDeploy: true
